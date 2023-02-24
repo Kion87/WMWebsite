@@ -10,7 +10,7 @@
 </head>
 <body>
     <!--Hero section-->
-    <div style="background-image: url('images/cool-bg.png');" class="px-6 pt-7 pb-32 bg-center bg-cover">
+    <div style="background-image: url('images/cool-bg.png');" class="px-6 pt-7 pb-32 bg-center bg-cover md:px-8 md:bg-left">
         <!--Header-->
         <div class="flex flex-row justify-between">
             
@@ -29,11 +29,11 @@
         </div>
 
         <!--Hero content-->
-        <div class="flex flex-col items-center gap-10 mt-32">
+        <div class="flex flex-col items-center gap-10 mt-32 md:items-start">
             <!--Hero text-->
-            <div class="flex flex-col items-center gap-5">
+            <div class="flex flex-col items-center gap-5 md:items-start">
                 <p class="font-sans font-bold text-orange-400 text-base ">Hello, this is</p>
-                <h1 class="font-sans font-bold text-white text-6xl text-center">leomarc earth node</h1>
+                <h1 class="font-sans font-bold text-white text-6xl text-center md:text-7xl">leomarc earth node</h1>
                 <h3 class="font-sans font-bold text-blue-400 text-base ">operator's website</h3>
             </div>
             
@@ -51,10 +51,10 @@
     <!--End of Hero section-->
 
     <!--Service section-->
-    <div class="bg-zinc-900 px-6 py-10 flex flex-col gap-12">
+    <div class="bg-zinc-900 px-6 py-10 flex flex-col gap-12 md:px-10">
         <!--Header-->
-        <div class="flex flex-col items-center gap-7">
-            <div class="flex flex-col items-center gap-4">
+        <div class="flex flex-col items-center gap-7 md:flex-row md:justify-between">
+            <div class="flex flex-col items-center gap-4 md:items-start">
                 <p class="font-sans font-bold text-orange-400 text-base">01.</p>
                 <h2 class="font-sans font-extrabold text-white text-4xl">Services</h2>
             </div>
@@ -62,29 +62,29 @@
         </div>
 
         <!--Services items/cards-->
-        <div class="grid grid-cols-1 gap-10">
-            <div class="flex flex-col items-center gap-4 bg-zinc-800 p-10 rounded-2xl shadow-md shadow-blue-500">
+        <div class="grid grid-cols-1 gap-10 md:grid-cols-3 md:gap-5">
+            <div class="hover:bg-orange-700 duration-200 flex flex-col items-center gap-4 bg-zinc-800 p-10 rounded-2xl md:px-5 md:py-8">
                 <iconify-icon class="text-blue-500 text-3xl mb-10" icon="ooui:image-gallery"></iconify-icon>
-                <h3 class="font-sans font-semibold text-xl text-white">Filming Services</h3>
+                <h3 class="font-sans font-semibold text-xl text-white text-center">Filming Services</h3>
                 <p class="font-sans font-medium text-base text-white text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae natus fugit modi officia labore enim deleniti culpa ex. Tempora numquam laboriosam harum, excepturi id illo asperiores rerum quia qui laborum?</p>
             </div>
 
-            <div class="flex flex-col items-center gap-4 bg-zinc-800 p-10 rounded-2xl shadow-md shadow-blue-500">
+            <div class="hover:bg-orange-700 duration-200 flex flex-col items-center gap-4 bg-zinc-800 p-10 rounded-2xl md:px-5 md:py-8">
                 <iconify-icon class="text-blue-500 text-3xl mb-10" icon="ion:social-buffer"></iconify-icon>
-                <h3 class="font-sans font-semibold text-xl text-white">Digital Marketing</h3>
+                <h3 class="font-sans font-semibold text-xl text-white text-center">Digital Marketing</h3>
                 <p class="font-sans font-medium text-base text-white text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae natus fugit modi officia labore enim deleniti culpa ex. Tempora numquam laboriosam harum, excepturi id illo asperiores rerum quia qui laborum?</p>
             </div>
 
-            <div class="flex flex-col items-center gap-4 bg-zinc-800 p-10 rounded-2xl shadow-md shadow-blue-500">
+            <div class="hover:bg-orange-700 duration-200 flex flex-col items-center gap-4 bg-zinc-800 p-10 rounded-2xl md:px-5 md:py-8">
                 <iconify-icon class="text-blue-500 text-3xl mb-10" icon="ic:baseline-video-settings"></iconify-icon>
-                <h3 class="font-sans font-semibold text-xl text-white">Visual Effects</h3>
+                <h3 class="font-sans font-semibold text-xl text-white text-center">Visual Effects</h3>
                 <p class="font-sans font-medium text-base text-white text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae natus fugit modi officia labore enim deleniti culpa ex. Tempora numquam laboriosam harum, excepturi id illo asperiores rerum quia qui laborum?</p>
             </div>
 
         </div>
 
         <!--Services counters-->
-        <div class="bg-zinc-800 p-16 flex flex-col gap-12 rounded-2xl shadow-sm shadow-white">
+        <div class="bg-zinc-800 p-16 flex flex-col gap-12 rounded-2xl md:flex-row md:justify-between">
             <div class="flex flex-col items-center gap-3">
                 <iconify-icon class="text-orange-500 text-3xl" icon="mdi:people-group"></iconify-icon>
                 <h4 class="font-sans font-extrabold text-white text-4xl">459 K</h4>
@@ -113,14 +113,15 @@
     <!--End of service section-->
 
     <!--Client area-->
-    <div class="bg-zinc-800 px-8 py-12 flex flex-col gap-10">
-        <div class="flex flex-col items-center gap-3">
+    <div class="bg-zinc-800 px-8 py-12 flex flex-col gap-10 md:px-10">
+        <div class="flex flex-col items-center gap-3 md:items-start">
             <p class="font-sans font-bold text-orange-400 text-base">02.</p>
             <h2 class="font-sans font-extrabold text-white text-4xl">Our Clients</h2>
-            <p class="font-sans font-medium text-base text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facere, laudantium libero quis sunt, quos, unde maiores dignissimos commodi aliquid tenetur. Explicabo velit perferendis, dolorum libero ea quisquam nostrum porro.</p>
+            <p class="font-sans font-medium text-base text-white text-center md:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facere, laudantium libero quis sunt, quos, unde maiores dignissimos commodi aliquid tenetur. Explicabo velit perferendis, dolorum libero ea quisquam nostrum porro.</p>
         </div>
 
-        <div class="grid grid-cols-2 gap-8">
+        <!--Pictures area-->
+        <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
             <div class="bg-zinc-900 py-4 rounded-md">
                 <img src="images/aerostat.jpg" alt="">
             </div>
@@ -149,5 +150,69 @@
         </div>
     </div>
 
+    <!--News and cta (call to action)-->
+    <div class="bg-zinc-900 px-6 py-10 flex flex-col gap-10 md:px-10">
+        <!--header-->
+        <div class="flex flex-col items-center gap-4 md:items-start">
+            <p class="font-sans font-bold text-orange-400 text-base">03.</p>
+            <h2 class="font-sans font-extrabold text-white text-4xl">News</h2>
+        </div>
+        
+        <!--news items container-->
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+            <!--news item 1-->
+            <div class="group hover:shadow-black hover:shadow-2xl overflow-hidden duration-500">
+                <img class="rounded-t-md group-hover:scale-105 duration-500" src="images/desert1.jpg" alt="">
+                <div class="bg-zinc-800 p-8 flex flex-col gap-6 rounded-b-md">
+                    <p class="font-sans font-semibold text-orange-400 text-xs uppercase">Commercial</p>
+                    <h3 class="font-sans font-extrabold text-white text-lg">Ipsum ipsum hello lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat quidem.</h3>
+                </div>
+            </div>
+
+            <!--news item 2-->
+            <div class="group hover:shadow-black hover:shadow-2xl overflow-hidden duration-500">
+                <img class="rounded-t-md group-hover:scale-105 duration-500" src="images/desert2.jpg" alt="">
+                <div class="bg-zinc-800 p-8 flex flex-col gap-6 rounded-b-md">
+                    <p class="font-sans font-semibold text-orange-400 text-xs uppercase">Commercial</p>
+                    <h3 class="font-sans font-extrabold text-white text-lg">Ipsum ipsum hello lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat quidem.</h3>
+                </div>
+            </div>
+
+            <!--news item 3-->
+            <div class="group hover:shadow-black hover:shadow-2xl overflow-hidden duration-500">
+                <img class="rounded-t-md group-hover:scale-105 duration-500" src="images/gradient-bg.png" alt="">
+                <div class="bg-zinc-800 p-8 flex flex-col gap-6 rounded-b-md">
+                    <p class="font-sans font-semibold text-orange-400 text-xs uppercase">Commercial</p>
+                    <h3 class="font-sans font-extrabold text-white text-lg">Ipsum ipsum hello lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat quidem.</h3>
+                </div>
+            </div>
+
+            <!--news item 4-->
+            <div class="group hover:shadow-black hover:shadow-2xl overflow-hidden duration-500">
+                <img class="rounded-t-md group-hover:scale-105 duration-500" src="images/landscape.jpg" alt="">
+                <div class="bg-zinc-800 p-8 flex flex-col gap-6 rounded-b-md">
+                    <p class="font-sans font-semibold text-orange-400 text-xs uppercase">Commercial</p>
+                    <h3 class="font-sans font-extrabold text-white text-lg">Ipsum ipsum hello lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat quidem.</h3>
+                </div>
+            </div>
+        </div>
+
+        <!--cta section-->
+        <div class="bg-zinc-800 rounded-md px-10 pt-10 flex flex-col gap-8 mt-10 md:flex-row md:pt-16">
+            <div class="flex flex-col items-center gap-6 md:items-start md:mb-14">
+                <p class="font-sans font-bold text-orange-400 text-base">04.</p>
+                <h2 class="font-sans font-extrabold text-white text-3xl text-center md:text-start">Let's talk about your project</h2>
+                <p class="font-sans font-medium text-base text-white text-center md:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt iste esse repellat, voluptates aspernatur odio asperiores, molestias culpa!</p>
+                <button class="bg-orange-500 font-sans font-semibold uppercase text-lg text-white px-7 py-2.5 rounded-md">Contact</button>
+
+            </div>
+
+            <div>
+                <img class="self-end" src="images/Level.png" alt="">
+            </div>
+        </div>
+    </div>
+
+ 
 </body>
 </html>
