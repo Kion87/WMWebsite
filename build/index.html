@@ -33,16 +33,16 @@
             <!--Hero text-->
             <div class="flex flex-col items-center gap-5 md:items-start">
                 <p class="font-sans font-bold text-orange-400 text-base ">Hello, this is</p>
-                <h1 class="font-sans font-bold text-white text-6xl text-center md:text-7xl">leomarc earth node</h1>
+                <h1 class="font-sans font-bold text-white text-6xl text-center md:text-7xl md:text-start lg:text-9xl">Leomarc Earth Node</h1>
                 <h3 class="font-sans font-bold text-blue-400 text-base ">operator's website</h3>
             </div>
             
             <!--Hero socials-->
             <div class="flex flex-row gap-3 items-center">
-                <a href=""><iconify-icon class="text-blue-500 bg-zinc-800 rounded-full p-2 text-3xl" icon="mdi:twitter"></iconify-icon></a>
-                <a href=""><iconify-icon class="text-blue-500 bg-zinc-800 rounded-full p-2 text-3xl" icon="ic:outline-discord"></iconify-icon></a>
-                <a href=""><iconify-icon class="text-blue-500 bg-zinc-800 rounded-full p-2 text-3xl" icon="fa-brands:telegram"></iconify-icon></a>
-                <a href=""><iconify-icon class="text-blue-500 bg-zinc-800 rounded-full p-2 text-3xl" icon="ic:round-email"></iconify-icon></a>
+                <a href=""><iconify-icon class="text-zinc-200 bg-zinc-800 rounded-full p-2 text-3xl" icon="mdi:twitter"></iconify-icon></a>
+                <a href=""><iconify-icon class="text-zinc-200 bg-zinc-800 rounded-full p-2 text-3xl" icon="ic:outline-discord"></iconify-icon></a>
+                <a href=""><iconify-icon class="text-zinc-200 bg-zinc-800 rounded-full p-2 text-3xl" icon="fa-brands:telegram"></iconify-icon></a>
+                <a href=""><iconify-icon class="text-zinc-200 bg-zinc-800 rounded-full p-2 text-3xl" icon="ic:round-email"></iconify-icon></a>
             </div>
 
         </div>
@@ -51,7 +51,7 @@
     <!--End of Hero section-->
 
     <!--Service section-->
-    <div class="bg-zinc-900 px-6 py-10 flex flex-col gap-12 md:px-10">
+    <div class="bg-zinc-900 px-6 py-10 flex flex-col gap-12 md:px-10 lg:py-24">
         <!--Header-->
         <div class="flex flex-col items-center gap-7 md:flex-row md:justify-between">
             <div class="flex flex-col items-center gap-4 md:items-start">
@@ -113,40 +113,34 @@
     <!--End of service section-->
 
     <!--Client area-->
-    <div class="bg-zinc-800 px-8 py-12 flex flex-col gap-10 md:px-10">
+    <div class="bg-zinc-800 px-8 py-12 flex flex-col gap-10 md:px-10 lg:flex-row lg:justify-between lg:py-24">
         <div class="flex flex-col items-center gap-3 md:items-start">
             <p class="font-sans font-bold text-orange-400 text-base">02.</p>
-            <h2 class="font-sans font-extrabold text-white text-4xl">Our Clients</h2>
+            <h2 class="font-sans font-extrabold text-white text-4xl lg:text-6xl lg:w-1/2">Our Clients</h2>
             <p class="font-sans font-medium text-base text-white text-center md:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facere, laudantium libero quis sunt, quos, unde maiores dignissimos commodi aliquid tenetur. Explicabo velit perferendis, dolorum libero ea quisquam nostrum porro.</p>
         </div>
 
         <!--Pictures area-->
-        <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
-            <div class="bg-zinc-900 py-4 rounded-md">
-                <img src="images/aerostat.jpg" alt="">
-            </div>
-            <div class="bg-zinc-900 py-4 rounded-md">
-                <img src="images/desert1.jpg" alt="">
-            </div>
-            <div class="bg-zinc-900 py-4 rounded-md">
-                <img src="images/desert2.jpg" alt="">
-            </div>
-            <div class="bg-zinc-900 py-4 rounded-md">
-                <img src="images/landscape.jpg" alt="">
-            </div>
-            <div class="bg-zinc-900 py-4 rounded-md">
-                <img src="images/aerostat.jpg" alt="">
-            </div>
-            <div class="bg-zinc-900 py-4 rounded-md">
-                <img src="images/desert2.jpg" alt="">
-            </div>
-            <div class="bg-zinc-900 py-4 rounded-md">
-                <img src="images/landscape.jpg" alt="">
-            </div>
-            <div class="bg-zinc-900 py-4 rounded-md">
-                <img src="images/desert1.jpg" alt="">
-            </div>
+        <div class="grid grid-cols-2 gap-8 md:grid-cols-4 lg:py-10">
             
+                <!--<div class="bg-zinc-900 py-4 rounded-md"> and the class from image must be removed-->
+                <img class="rounded-lg shadow-lg shadow-black" src="images/aerostat.jpg" alt="">
+                <!--</div>-->
+
+                <img class="rounded-lg shadow-lg shadow-black" src="images/desert1.jpg" alt="">
+            
+                <img class="rounded-lg shadow-lg shadow-black" src="images/desert2.jpg" alt="">
+            
+                <img class="rounded-lg shadow-lg shadow-black" src="images/landscape.jpg" alt="">
+            
+                <img class="rounded-lg shadow-lg shadow-black" src="images/aerostat.jpg" alt="">
+            
+                <img class="rounded-lg shadow-lg shadow-black" src="images/desert2.jpg" alt="">
+            
+                <img class="rounded-lg shadow-lg shadow-black" src="images/landscape.jpg" alt="">
+            
+                <img class="rounded-lg shadow-lg shadow-black" src="images/desert1.jpg" alt="">
+                        
         </div>
     </div>
 
@@ -198,8 +192,8 @@
         </div>
 
         <!--cta section-->
-        <div class="bg-zinc-800 rounded-md px-10 pt-10 flex flex-col gap-8 mt-10 md:flex-row md:pt-16">
-            <div class="flex flex-col items-center gap-6 md:items-start md:mb-14">
+        <div class="bg-zinc-800 rounded-md px-10 pt-10 flex flex-col gap-8 mt-10 md:flex-row md:pt-16 lg:pt-0">
+            <div class="flex flex-col items-center gap-6 md:items-start md:mb-14 lg:mb-0 lg:justify-center">
                 <p class="font-sans font-bold text-orange-400 text-base">04.</p>
                 <h2 class="font-sans font-extrabold text-white text-3xl text-center md:text-start">Let's talk about your project</h2>
                 <p class="font-sans font-medium text-base text-white text-center md:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt iste esse repellat, voluptates aspernatur odio asperiores, molestias culpa!</p>
@@ -208,7 +202,7 @@
             </div>
 
             <div>
-                <img class="self-end" src="images/Level.png" alt="">
+                <img class="self-end" src="images/person main.png" alt="">
             </div>
         </div>
     </div>
